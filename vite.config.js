@@ -7,6 +7,9 @@ export default defineConfig({
   base: '/hellox2/',
   build: {
     outDir: 'dist',
-    assetsDir: 'assets',
-  }
+    assetsDir: 'assets'
+  },
+  server: {
+    allowedHosts: ['a1dcfbf9b6bd.ngrok-free.app'],
+  },
 })
